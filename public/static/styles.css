@@ -98,7 +98,7 @@
 
 .main-paragraph {
     font-size: 3rem;
-    /* padding: 0 0 3rem 0; */
+    font-family: 'Merriweather', serif;
 }
 
 .call-to-action-button {
@@ -180,4 +180,11 @@
     border-radius: 50%;
     border: #1D1F31 solid 3px;
     transform: translateX(50%);
+}
+
+.right-arrow {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    transform: rotate(-30deg);
 }
